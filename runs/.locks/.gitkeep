@@ -1,0 +1,11 @@
+# This directory holds per-run lockfiles (one per run_id).
+# The lockfile history is part of the audit trail per the
+# README's "Commit discipline" section; the directory itself
+# is reserved by the .gitkeep placeholder so the structure
+# is preserved in the initial commit and so `git clone` always
+# creates the directory.
+#
+# Per-run lockfiles are created at run start and either removed
+# at clean run end or kept for forensics on FAILED runs. The
+# runs/.gitignore does NOT ignore *.lock by default because
+# the lock-acquisition history is forensic data.

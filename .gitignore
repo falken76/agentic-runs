@@ -1,0 +1,13 @@
+# Top-level ignore for the agentic-runs repo.
+# Per-run ignoring is in runs/.gitignore; this file is for
+# anything that should be excluded repo-wide.
+
+# Editor / OS noise
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Backup scratch
+*.bak
+*.orig
