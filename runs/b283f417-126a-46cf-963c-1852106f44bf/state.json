@@ -1,0 +1,38 @@
+{
+  "run_id": "b283f417-126a-46cf-963c-1852106f44bf",
+  "ts_committed": "2026-08-14T03:35:00Z",
+  "canary_index": 2,
+  "topic": "is there an AI bubble",
+  "slug": "2026-08-14-is-there-an-ai",
+  "llm_endpoint": "https://api.x.ai/v1",
+  "llm_model": "grok-4.20-0309-non-reasoning",
+  "llm_api_key_env": "XAI_API_KEY",
+  "mock_mode": false,
+  "status": "success",
+  "words": 485,
+  "sources": 1,
+  "envelope_seqs": [
+    {
+      "leg": "A->B",
+      "seq": 1
+    },
+    {
+      "leg": "B->C",
+      "seq": 2
+    }
+  ],
+  "audit_event_ids": [
+    27,
+    28,
+    29
+  ],
+  "report_path": "reports/2026-08-14-is-there-an-ai/report.html",
+  "compound_a_identity": {
+    "agent_a_sha": "50fe92d45aa139de8e20406f62303d43d86241d52479a00dded109ac35c3ccfd",
+    "agent_b_sha": "c51de2345303d9ef93b5421a832725020c5859884a89b015058093f00d676265",
+    "agent_c_sha": "ca679e2d763ae2b2cb76ffdd7138e0a8ce46a59387b611afee46f48a3ca5f1c2",
+    "preserved": true,
+    "note": "all three SHAs unchanged across the canary; on-disk manifests not bumped"
+  },
+  "decline_history": []
+}
