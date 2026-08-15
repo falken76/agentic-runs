@@ -1,7 +1,7 @@
 # agentic-runs
 
 Immutable Git-anchored history of every agentic run the P-43
-three-agent pipeline executes.
+N-agent pipeline substrate executes.
 
 This repo is the **Phase 5 Git anchor** for P-43 (`Agentic AI
 Team workflow`). Per D-417, the anchor lives in a dedicated repo
@@ -26,6 +26,14 @@ who can clone this repo can answer:
 - *What did the run produce?* — the `output/` directory holds
   the deliverable files (the report HTML, the index-card
   excerpt, the structured brief echo).
+
+The repo is pipeline-agnostic — it accepts runs from any N-agent
+pipeline registered in `~/agentic/pipelines/<slug>.yaml`. The
+first demonstrated pipeline was the 3-agent AI-hype demo
+(researcher-firecrawl → editor-magazine → coder-html); the
+second is the 4-agent code-review pipeline
+(coder-minimax → preflight-runner → reviewer-grok →
+coder-minimax/commit). The repo shape is identical for both.
 
 ## What this repo is NOT
 
